@@ -31,7 +31,7 @@ while a<4:
 for k in range(v):
     for i in range(v):
         for j in range (v):
-        Ma1[i][j]=Ma1[i][j] or (Ma1[i][k] and Ma1[k][j]) #para acceder o hacer slicing es necesario porner los dos corchetes
+            Ma1[i][j]=Ma1[i][j] or (Ma1[i][k] and Ma1[k][j]) #para acceder o hacer slicing es necesario porner los dos corchetes
 print("El resultado del cierre transitivo es el siguiente: ")
 print()
 for i in range(v):
